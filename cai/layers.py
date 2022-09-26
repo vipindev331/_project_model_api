@@ -1,5 +1,8 @@
 import tensorflow
 from tensorflow import keras
+from tensorflow.keras.layers import (
+    BatchNormalization, SeparableConv2D, MaxPooling2D, Activation, Flatten, Dropout, Dense
+)
 
 class CopyChannels(keras.layers.Layer):
     """
