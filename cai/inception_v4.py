@@ -14,9 +14,6 @@ See the License for the specific language governing permissions and
 limitations under the License.
 '''
 import numpy as np
-from tensorflow.keras.layers import (
-    BatchNormalization, SeparableConv2D, MaxPooling2D, Activation, Flatten, Dropout, Dense
-)
 
 # Sys
 import warnings
